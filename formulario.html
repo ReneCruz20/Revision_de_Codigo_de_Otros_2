@@ -8,17 +8,18 @@
   <link rel="stylesheet" type="text/css" media="screen" href="./styles.css">
   <title>Formulario</title>
 </head>
+
 <body>
   <h1>Bienvenidos a mi fiesta</h1>
   <h2>Por favor, confirmar asistencia:</h2>
-
-  <form class="formulario">
+<!-- Cambio el nombre del formulario: "formulario" a "form" -->
+  <form class="form">
     Nombre <input type="text" name="name" id="name">
     <br />
     Edad <input type="number" name="age" id="age">
     <br />
-
-    Nacionalidad
+<!-- Se añade las etiquetas de parrafo para mejor lectura de codigo -->
+    <p>Nacionalidad</p>
     <select name="nationality" id="nationality">
       <option value="ar">Argentina</option>
       <option value="mx">Mexicana</option>
@@ -30,11 +31,12 @@
   </form>
 
   <div>
+
     <h2>Lista de invitados</h2>
 
   </div>
 
-  <script src="../formulario.js"></script>
+  <script src="./formulario.js"></script>
 </body>
 
 </html>
